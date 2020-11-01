@@ -1,0 +1,24 @@
+{
+  "name": "vanilla-api",
+  "version": "1.0.0",
+  "description": "Vanilla Node.js REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "node.js",
+    "API",
+    "REST",
+    "JavaScript"
+  ],
+  "author": "@earth2travis",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "uuid": "^8.3.1"
+  }
+}
